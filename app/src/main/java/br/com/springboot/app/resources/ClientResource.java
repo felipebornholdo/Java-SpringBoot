@@ -7,14 +7,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(path = "/goinside/client")
+@RequestMapping(path = "/api/client")
 public class ClientResource {
 
     private final ClientService clientService;
 
     @Autowired
     public ClientResource(ClientService clientService) {
-
         this.clientService = clientService;
     }
 

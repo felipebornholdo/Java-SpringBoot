@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/goinside/book")
+@RequestMapping(path = "/api/book")
 public class BookResource {
 
     private final BookService bookService;

@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(path = "/goinside/sale")
+@RequestMapping(path = "/api/sale")
 public class SaleResource {
 
     private SaleService saleService;
